@@ -3,17 +3,18 @@
   "version": "0.0.1",
   "description": "Run Node-RED on Heroku",
   "engines": {
-    "node": "8.9.4"
+    "node": "14.15.0"
   },
   "scripts": {
     "start": "node-red --settings ./.node-red/settings.js --userDir ./.node-red"
-   },
+  },
   "dependencies": {
     "node-red": "*",
-    "node-red-contrib-browser-utils": "*",
     "node-red-admin": "*",
-    "node-red-contrib-viseo-google-authentication":"*",
-    "node-red-contrib-viseo-google-spreadsheet": "*"
+    "node-red-contrib-browser-utils": "*",
+    "node-red-contrib-viseo-google-authentication": "*",
+    "node-red-contrib-viseo-google-spreadsheet": "*",
+    "node-red-dashboard": "^2.27.0"
   },
   "repository": {
     "type": "git",
