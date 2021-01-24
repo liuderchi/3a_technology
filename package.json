@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Run Node-RED on Heroku",
   "engines": {
-    "node": "14.15.0"
+    "node": "14.15.3"
   },
   "scripts": {
     "start": "node-red --settings ./.node-red/settings.js --userDir ./.node-red"
